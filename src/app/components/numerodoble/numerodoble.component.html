@@ -1,0 +1,13 @@
+<div>
+    <h1>Parámetros Routing</h1>
+    <button (click)="redirect(66)">Doble 66</button>
+    <button (click)="redirect(55)">Doble de 55</button>
+    <button (click)="redirect(199)">Doble de 199</button>
+    <hr/>
+    <div *ngIf="doble">El doble de {{numero}} es
+        <span style="color:red">{{doble}}</span>
+    </div>
+    <div *ngIf="!doble">
+        <h1 style="color:red">{{doble}}No tenemos parametros</h1>
+    </div>
+</div>
