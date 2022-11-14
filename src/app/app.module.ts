@@ -10,8 +10,6 @@ import { TelevisionComponent } from './components/television/television.componen
 import { MenuComponent } from './components/menu/menu.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NumerodobleComponent } from './components/numerodoble/numerodoble.component';
-import { MenuCollatzComponent } from './components/menu-collatz/menu-collatz.component';
-import { CollatzComponent } from './components/collatz/collatz.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +21,6 @@ import { CollatzComponent } from './components/collatz/collatz.component';
     MenuComponent,
     ErrorComponent,
     NumerodobleComponent,
-    MenuCollatzComponent,
-    CollatzComponent
   ],
   imports: [
     BrowserModule,
